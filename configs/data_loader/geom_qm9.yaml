@@ -1,0 +1,13 @@
+_target_: dit_mc.data_loader.geom_dataset.GeomDataset
+data_cfg:
+    data_dir: ${globals.data_dir}
+    dataset: qm9
+    cutoff: ${globals.cutoff}
+    download_key: XXX
+    n_proc: ${globals.n_cpus}
+    skip_loading_prefetch: True
+    filter_edge_cases_bool: ${globals.filter_edge_cases_bool}
+debug: ${globals.debug}
+num_atoms: 29
+num_atoms_mean: 20
+max_num_graphs: ${globals.batch_size}

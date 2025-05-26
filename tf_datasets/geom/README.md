@@ -1,0 +1,1 @@
+Preprocessed version of Geom dataset in tensorflow tfrecord format.

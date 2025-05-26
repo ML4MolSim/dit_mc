@@ -1,0 +1,15 @@
+_target_: dit_mc.model_zoo.Geomdit_mc
+name: dit_ape
+num_layers: 6
+num_heads: 8
+num_features_head: 32
+activation_fn: silu
+mgn_num_layers: 2
+mgn_num_features: 256
+mgn_activation_fn: silu
+absolute_positional_embedding_bool: True
+relative_positional_embedding_bool: False
+self_conditioning_bool: ${globals.self_conditioning_bool}
+positional_encoding_bool: ${globals.positional_encoding_bool}
+embed_shortest_hops_bool: ${globals.embed_shortest_hops_bool}
+act_dense_correct_bool: ${globals.act_dense_correct_bool}

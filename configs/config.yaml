@@ -1,0 +1,49 @@
+defaults:
+  - prior: harmonic
+  - model: dit_so3
+  - data_loader: geom_qm9
+  - generative_process: flow_matching
+  - _self_
+
+wandb:
+  entity: conformer-search
+  project: dit_mc
+  mode: online
+
+globals:
+  exp: >
+    ${generative_process.name}
+    ${model.name}
+    ${prior.name}
+  seed: 42
+  n_cpus: 6
+  data_dir: './data'
+  conditioning_bool: True
+  augmentation_bool: True
+  use_validation_bool: True
+  filter_edge_cases_bool: True
+  mixture_tau_bool: False
+  free_guidance_bool: False
+  free_guidance_prob: 0.1
+  self_conditioning_bool: False
+  self_conditioning_prob: 0.5
+  positional_encoding_bool: False
+  embed_shortest_hops_bool: True
+  # only relevant for dit_so3 with `embed_shortest_hops_bool: True`
+  scale_spherical_basis_with_shortest_hops_bool: True
+  act_dense_correct_bool: True
+  num_epochs: 250
+  batch_size: 128
+  cutoff: .inf
+  debug: False
+  download_data: False
+  auto_eval: True
+
+trainer:
+  _target_: dit_mc.training.trainer.Trainer
+  process: ${generative_process}
+  num_epochs: ${globals.num_epochs}
+  augmentation_bool: ${globals.augmentation_bool}
+  use_validation_bool: ${globals.use_validation_bool}
+
+resume_from_workdir: False

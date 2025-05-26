@@ -1,0 +1,9 @@
+content.data-type.3d # Contains 3d data.
+content.data-type.categorical # Contains categorical data.
+content.data-type.graph # Contains graph data.
+content.data-type.point-cloud # Contains point-cloud data.
+content.data-type.tabular # Contains tabular data.
+content.subject.biology # Relates to biology.
+content.subject.computer-science # Relates to computer science.
+content.subject.earth-and-nature # Relates to earth and nature.
+content.subject.health # Relates to health.

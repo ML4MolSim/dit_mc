@@ -1,0 +1,47 @@
+[project]
+name = "dit_mc"
+version = "0.0.1"
+description = "Diffusion transformers for molecular conformer generation."
+authors = [
+    { name = "Anonymous" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+
+dependencies = [
+    "jax[cuda12]==0.5.2",
+    "jaxlib==0.5.1",
+    "numpy",
+    "e3x",
+    "flax",
+    "optax",
+    "orbax-checkpoint",
+    "pandas",
+    "polars",
+    "matplotlib",
+    "scikit-learn",
+    "ase",
+    "tqdm",
+    "wandb",
+    "pytest",
+    "ml_collections",
+    "jraph",
+    "rdkit",
+    "cython",
+    "datamol",
+    "hydra-core>=1.3.2",
+    "ipykernel>=6.29.5",
+    "pip>=25.0.1",
+    "gdown>=5.2.0",
+    "tensorflow-cpu>=2.18.0",
+    "tensorflow-datasets>=4.9.8",
+    "cloudpickle==2.2.1",
+    "nglview>=3.1.4",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]

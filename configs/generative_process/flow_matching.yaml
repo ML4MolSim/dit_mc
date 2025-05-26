@@ -1,0 +1,13 @@
+_target_: dit_mc.generative_process.flow_matching.FlowMatching
+net: ${model}
+prior: ${prior}
+sigma: 0.5
+regress_x1_bool: True
+conditioning_bool: ${globals.conditioning_bool}
+mixture_tau_bool: ${globals.mixture_tau_bool}
+free_guidance_bool: ${globals.free_guidance_bool}
+free_guidance_prob: ${globals.free_guidance_prob}
+self_conditioning_bool: ${globals.self_conditioning_bool}
+self_conditioning_prob: ${globals.self_conditioning_prob}
+weighted_loss_bool: True
+name: flow_matching
