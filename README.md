@@ -1,6 +1,9 @@
 [![data](https://zenodo.org/badge/DOI/10.5281/zenodo.14779793.svg)](https://doi.org/10.5281/zenodo.15489212)
 
 # DiTMC - Sampling 3D Molecular Conformers with Diffusion Transformers
+
+<img src="https://github.com/ML4MolSim/dit_mc/blob/main/ditmc_ani.gif" width="500" height="200">
+
 DiTMC is a modular framework for molecular conformer generation using Diffusion Transformers (DiTs). 
 It integrates molecular graph information with 3D geometry through flexible graph-based conditioning and supports both non-equivariant and SO(3)-equivariant attention. 
 DiTMC achieves state-of-the-art results on the GEOM benchmarks.
