@@ -9,6 +9,7 @@ It integrates molecular graph information with 3D geometry through flexible grap
 DiTMC achieves state-of-the-art results on the GEOM benchmarks.
 
 ## Overview
+<img src="https://github.com/ML4MolSim/dit_mc/blob/main/DiT-overview.jpg" width="578" height="331">
 We use modular hydra configs to ablate parts of our architecture or algorithms. Config files can be found in `configs` folder.
 
 Our modular repository consists of 3 main entry points:
