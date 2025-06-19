@@ -1,4 +1,5 @@
 [![data](https://zenodo.org/badge/DOI/10.5281/zenodo.14779793.svg)](https://doi.org/10.5281/zenodo.15489212)
+[![arXiv](https://img.shields.io/badge/arXiv-2301.01234-red)](https://arxiv.org/abs/2506.15378)
 
 # DiTMC - Sampling 3D Molecular Conformers with Diffusion Transformers
 
@@ -100,5 +101,16 @@ python dit_mc/app.py --multirun data_loader.data_cfg.data_dir=/tmp/data
 ```
 
 ## Citation
+If you use the code please cite the corresponding paper
 
-If you use parts of our code please cite our paper.
+```
+@article{frank2025sampling3D,
+  author    = {J. Thorben Frank and Winfried Ripken and Oliver T. Unke and Gregor Lied and Stefan Chmiela and Klaus-Robert M{\"u}ller},
+  title     = {Sampling 3D Molecular Conformers with Diffusion Transformers},
+  journal   = {arXiv preprint arXiv:2506.15378},
+  year      = {2025},
+  volume    = {2506.15378v1},
+  url       = {https://arxiv.org/abs/2506.15378},
+  eprint    = {2506.15378}
+}
+```
