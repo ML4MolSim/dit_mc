@@ -104,13 +104,10 @@ python dit_mc/app.py --multirun data_loader.data_cfg.data_dir=/tmp/data
 If you use the code please cite the corresponding paper
 
 ```
-@article{frank2025sampling3D,
-  author    = {J. Thorben Frank and Winfried Ripken and Oliver T. Unke and Gregor Lied and Stefan Chmiela and Klaus-Robert M{\"u}ller},
-  title     = {Sampling 3D Molecular Conformers with Diffusion Transformers},
-  journal   = {arXiv preprint arXiv:2506.15378},
-  year      = {2025},
-  volume    = {2506.15378v1},
-  url       = {https://arxiv.org/abs/2506.15378},
-  eprint    = {2506.15378}
+@article{frank2025sampling,
+  title={Sampling 3D Molecular Conformers with Diffusion Transformers},
+  author={Frank, J Thorben and Ripken, Winfried and Lied, Gregor and M{\"u}ller, Klaus-Robert and Unke, Oliver T and Chmiela, Stefan},
+  journal={arXiv preprint arXiv:2506.15378},
+  year={2025}
 }
 ```
