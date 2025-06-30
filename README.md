@@ -100,6 +100,13 @@ We are ready to start runs now.
 python dit_mc/app.py --multirun data_loader.data_cfg.data_dir=/tmp/data
 ```
 
+## Acknowledgements
+
+Our test and evaluation scripts are in part based on the following open source contributions:
+- [GeoMol](https://github.com/PattanaikL/GeoMol)
+- [MCF](https://github.com/apple/ml-mcf)
+- [ETFlow](https://github.com/shenoynikhil/ETFlow/tree/main)
+
 ## Citation
 If you use the code please cite the corresponding paper
 
