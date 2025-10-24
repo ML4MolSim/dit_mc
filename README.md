@@ -111,10 +111,12 @@ Our test and evaluation scripts are in part based on the following open source c
 If you use the code please cite the corresponding paper
 
 ```
-@article{frank2025sampling,
-  title={Sampling 3D Molecular Conformers with Diffusion Transformers},
-  author={Frank, J Thorben and Ripken, Winfried and Lied, Gregor and M{\"u}ller, Klaus-Robert and Unke, Oliver T and Chmiela, Stefan},
-  journal={arXiv preprint arXiv:2506.15378},
-  year={2025}
+@inproceedings{frank2025sampling,
+  title     = {Sampling 3D Molecular Conformers with Diffusion Transformers},
+  author    = {Frank, J. Thorben and Ripken, Winfried and Lied, Gregor and M\"uller, Klaus-Robert and Unke, Oliver T. and Chmiela, Stefan},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS) 2025},
+  year      = {2025},
+  note      = {Poster},
+  url       = {https://neurips.cc/virtual/2025/poster/115555}
 }
 ```
