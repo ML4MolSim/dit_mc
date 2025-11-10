@@ -55,19 +55,13 @@ https://github.com/PattanaikL/GeoMol/blob/main/data/QM9/splits/split0.npy
 https://github.com/PattanaikL/GeoMol/blob/main/data/DRUGS/splits/split0.npy
 ```
 
-Step 3 - Install requirements.
-Besides the requirements above, we need additional requirements for generating the data:
-``` bash
-pip install mlcroissant apache-beam
-```
-
-Step 4 - Run the provided preprocessing script.
+Step 3 - Run the provided preprocessing script.
 ``` bash
 cd ./tf_datasets/geom
 bash build_ds.sh
 ```
 
-Step 5 - Copy the generated tfrecord files to `./data`.
+Step 4 - Copy the generated tfrecord files to `./data`.
 
 ## Evaluation
 
@@ -101,6 +95,8 @@ python dit_mc/app.py --multirun data_loader.data_cfg.data_dir=/tmp/data
 ```
 
 ## Acknowledgements
+
+During data preparation, we adopt the implementation of the Floyd–Warshall algorithm provided in the [Graphormer](https://github.com/microsoft/Graphormer) repository.
 
 Our test and evaluation scripts are in part based on the following open source contributions:
 - [GeoMol](https://github.com/PattanaikL/GeoMol)

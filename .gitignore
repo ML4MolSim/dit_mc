@@ -11,6 +11,8 @@ outputs
 *.egg-info
 *.lock
 multirun
+*.c
 *.parquet
+*.so
 *.tfrecord
 *.vscode
