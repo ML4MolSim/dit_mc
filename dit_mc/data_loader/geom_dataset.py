@@ -55,7 +55,7 @@ class GeomDataset(DataLoader):
 
         # check dataset version
         builder = tfds.builder_from_directory(self.geom_subfolder)
-        assert builder.info.version == "0.1.3", f"Dataset version {builder.info.version} is out of date. Please use version 0.1.3."
+        assert (builder.info.version == "0.1.3" or builder.info.version == "0.1.4"), f"Dataset version {builder.info.version} is out of date. Please use version 0.1.3 or 0.1.4."
 
         self.cutoff = self.data_cfg["cutoff"]
 
