@@ -1,4 +1,4 @@
-_target_: dit_mc.model_zoo.Geomdit_mc
+_target_: dit_mc.model_zoo.GeomMoDiT
 name: dit_rpe
 num_layers: 6
 num_heads: 8
