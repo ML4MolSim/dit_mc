@@ -1,4 +1,4 @@
-_target_: dit_mc.model_zoo.Geomdit_mcSO3
+_target_: dit_mc.model_zoo.GeomMoDiTSO3
 name: dit_so3
 num_layers: 6
 num_heads: 8
